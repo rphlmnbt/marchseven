@@ -1,0 +1,53 @@
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4D9DB;
+}
+
+.landing-text {
+  font-size: 10vh;
+  color: #896143;
+  margin-bottom: 5vh;
+  height: 20vh;
+}
+
+.landing-text-pick {
+  font-size: 8vh;
+  color: #896143;
+  margin-bottom: 5vh;
+  height: 20vh;
+  
+}
+
+.next-btn {
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: #896143;
+  border-width: 5px;
+  border-style: solid;
+  color: #896143;
+  font-size: 30px;
+  margin-bottom: 10vh;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: 'row' 
+}
+
+.image-col {
+  width: 20vw;
+  height: 20vw;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image-col-c {
+  width: 30vw;
+  height: 20vw;
+}
