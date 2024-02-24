@@ -1,22 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from 'react-bootstrap/Container';
 import './style.css'
-import { Col, Image, Row } from "react-bootstrap";
-import hk from '../assets/hk.png'
-import mm from '../assets/mm.png'
-import c from '../assets/c.png'
+import { Card, Col, Row } from "react-bootstrap";
+import r1 from '../assets/1.jpg';
+import r2 from '../assets/2.jpg';
+import r3 from '../assets/3.jpg';
 import { useNavigate } from "react-router-dom";
 
 const Pick = () => {
-  const [text, setText] = useState('Hola, Rei!')
   const navigate = useNavigate()
 
   const onClick = () => {
-    if (text === 'Hola, Rei!') {
-      setText("It's time to pick your BF! •ᴗ•")
-    } else {
-      navigate('/pick')
-    }
+    navigate('/')
   }
   return (
     <Container className="container">
@@ -27,17 +22,30 @@ const Pick = () => {
       </Row>
       <Row className="image-row">
         <Col lg={2} >
-          <Image src={hk} className="image-col" fluid/>
+          <Card style={{width: '20vw'}} onClick={onClick}>
+            <Card.Img variant="top" src={r1} className="img"/>
+            <Card.Body>
+              <Card.Title className="card-title">Raph</Card.Title>
+            </Card.Body>
+          </Card>
         </Col>
         <Col lg={2} >
-          <Image src={mm} className="image-col" fluid/>
+          <Card style={{width: '20vw'}} onClick={onClick}>
+            <Card.Img variant="top" src={r2} className="img"/>
+            <Card.Body>
+              <Card.Title className="card-title">Raph</Card.Title>
+            </Card.Body>
+          </Card>
         </Col>
         <Col lg={2} >
-          <Image src={c} className="image-col-c" fluid/>
-        </Col>
-        
+          <Card style={{width: '20vw'}} onClick={onClick}>
+            <Card.Img variant="top" src={r3} className="img"/>
+            <Card.Body>
+              <Card.Title className="card-title">Raph</Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>        
       </Row>
-      
     </Container>
   )
 }
