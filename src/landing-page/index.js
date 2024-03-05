@@ -15,7 +15,7 @@ const LandingPage = () => {
     if (text === 'Hola, Rei!') {
       setText("It's time to pick your BF! •ᴗ•")
     } else {
-      navigate('/pick')
+      navigate('/marchseven/pick')
     }
   }
   return (

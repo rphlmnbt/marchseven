@@ -11,7 +11,7 @@ const Pick = () => {
   const navigate = useNavigate()
 
   const onClick = () => {
-    navigate('/offer')
+    navigate('/marchseven/offer')
   }
   return (
     <Container className="container">

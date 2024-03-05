@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 const Last = () => {
   const [text, setText] = useState('I love you so much, Rei! <3')
   const [buttonText, setButtonText] = useState('NEXT')
-  const navigate = useNavigate()
 
   const onClick = () => {
     if (text === 'I love you so much, Rei! <3') {

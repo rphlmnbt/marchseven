@@ -48,7 +48,7 @@ const Offer = () => {
       setOffer("And he'll love you with all he has.")
       setName("<3")
     } else {
-      navigate('/last')
+      navigate('/marchseven/last')
     }
   }
   return (
