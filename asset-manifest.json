@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/marchseven/static/css/main.73362503.css",
+    "main.js": "/marchseven/static/js/main.c2c62b6d.js",
+    "static/js/453.a7fac1aa.chunk.js": "/marchseven/static/js/453.a7fac1aa.chunk.js",
+    "static/media/pic.png": "/marchseven/static/media/pic.74cf33196dfef09471cc.png",
+    "static/media/love.png": "/marchseven/static/media/love.7b1e91282d2f8921b721.png",
+    "static/media/food.png": "/marchseven/static/media/food.e8a86da8e9229925644a.png",
+    "static/media/dates.png": "/marchseven/static/media/dates.b248f084ce5e2f129c1b.png",
+    "static/media/flo.png": "/marchseven/static/media/flo.3a0bce8bdc556aa7125f.png",
+    "static/media/cookies.png": "/marchseven/static/media/cookies.6f55c8c3cd8ddd3da8c5.png",
+    "static/media/gift.png": "/marchseven/static/media/gift.fa20c0b8ada8520050f6.png",
+    "static/media/1.jpg": "/marchseven/static/media/1.3ce0d28ba003dadf8f4f.jpg",
+    "static/media/hk.png": "/marchseven/static/media/hk.1873871b66ab26d440ea.png",
+    "static/media/2.jpg": "/marchseven/static/media/2.5a39f861da07491a4eb1.jpg",
+    "static/media/mm.png": "/marchseven/static/media/mm.3f53852cdc26806e94b5.png",
+    "static/media/3.jpg": "/marchseven/static/media/3.f0bf3901464642b99276.jpg",
+    "static/media/c.png": "/marchseven/static/media/c.358d12cc2a4adfea41d7.png",
+    "index.html": "/marchseven/index.html",
+    "main.73362503.css.map": "/marchseven/static/css/main.73362503.css.map",
+    "main.c2c62b6d.js.map": "/marchseven/static/js/main.c2c62b6d.js.map",
+    "453.a7fac1aa.chunk.js.map": "/marchseven/static/js/453.a7fac1aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73362503.css",
+    "static/js/main.c2c62b6d.js"
+  ]
+}
