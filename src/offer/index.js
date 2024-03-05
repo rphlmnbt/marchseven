@@ -36,7 +36,7 @@ const Offer = () => {
     else if (img === flo) {
       setImg(dates)
       setOffer("He'll take you out on dates!")
-      setName("Mirror pic on dates")
+      setName("Cute Dates")
     }
     else if (img === dates) {
       setImg(pic)
